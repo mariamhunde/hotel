@@ -49,3 +49,8 @@ h1{
     height: 275px; 
     overflow-y: auto; 
 }
+
+.product-device,
+.product-device-2 {
+    box-shadow: none; /* Remove the shadow */
+}
