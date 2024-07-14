@@ -25,6 +25,7 @@ h1{
     background-image: url('your-hero-image.jpg');
     background-size: cover;
     color: white;
+    padding-top: 10%;
 }
 
 /* Style for the container within the hero */
