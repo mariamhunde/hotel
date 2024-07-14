@@ -1,6 +1,5 @@
 h1{
     color: whitesmoke; 
-    background-color: rgba(0, 0, 0, 0.5);
 
 }
 .divider{
@@ -14,6 +13,7 @@ h1{
     background-position: center; 
     background-repeat: no-repeat;
     margin: 0 !important;
+    padding-top: 20%;
 }
 
 .navbar {
@@ -22,7 +22,6 @@ h1{
 
 /* Style for the hero section */
 #hero {
-    position: relative;
     background-image: url('your-hero-image.jpg');
     background-size: cover;
     color: white;
