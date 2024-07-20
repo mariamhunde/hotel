@@ -35,10 +35,12 @@ h1{
 }
 
 #book-nowbtn {
-     tran
+     tran;
 }
  
-
+#our-roomtxt {
+    padding-bottom: 20%;
+}
 /* Style for the section that pops out */
 #popout-section {
     position: absolute;
