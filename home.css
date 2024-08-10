@@ -5,7 +5,9 @@ h1{
 .divider{
     margin-top: 5%;
 }
-
+#our-roomtxt {
+    padding-bottom: 10rem;
+}
 .banner-img{
     
     background-image:url("images/poolside-hotel.jpg");
@@ -34,13 +36,9 @@ h1{
     z-index: 1; 
 }
 
-#book-nowbtn {
-     tran;
-}
+
  
-#our-roomtxt {
-    padding-bottom: 20%;
-}
+
 /* Style for the section that pops out */
 #popout-section {
     position: absolute;
