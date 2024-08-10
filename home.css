@@ -1,12 +1,18 @@
+body{
+    font-family:'Work Sans', sans-serif;
+    font-size: large;
+    font-weight: 400;
+}
+
 h1{
     color: whitesmoke; 
 
 }
+
 .divider{
     margin-top: 5%;
 }
 #our-roomtxt {
-    padding-bottom: 10rem;
 }
 .banner-img{
     
