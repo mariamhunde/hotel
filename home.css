@@ -66,6 +66,7 @@ h1{
 
 .custom-modal-body {
     height: 275px; 
+    max-width: auto;
     overflow-y: auto; 
 }
 
