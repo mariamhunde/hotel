@@ -74,6 +74,6 @@ h1{
 .product-device-2 {
     box-shadow: none; /* Remove the shadow */
 }
-.booknowBtn{
-    color: yellow;
+.customBtn{
+    background-color: yellow;
 }
