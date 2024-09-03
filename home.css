@@ -75,5 +75,7 @@ h1{
     box-shadow: none; /* Remove the shadow */
 }
 .customBtn{
-    background-color: yellow;
+    background-color: #EEDF7A;
+    width:20%;
+
 }
