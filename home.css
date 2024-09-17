@@ -29,6 +29,7 @@ h1{
     background-repeat: no-repeat;
     margin: 0 !important;
     padding-top: 20%;
+    text-align: center;
 }
 
 .navbar {
@@ -78,4 +79,7 @@ h1{
     background-color: #EEDF7A;
     width:20%;
 
+}
+.contact-container{
+    background-color:#FFF8E8 ;
 }

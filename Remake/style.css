@@ -130,12 +130,52 @@ nav{
     transition:0.5s;
    z-index: -1;
 
+}
+
+.nav_links.open {
+    transform:translateY(0);
 
 }
+
+.nav_links a{
+    color:var(--text-light);
+    transition: 0.3s;
+}
+
+.nav_links a:hover {
+    color:var(--secondary-color);
+}
+
 
 body{
      font-family: "Playfair Display", serif;
      font-optical-sizing: auto;
      font-weight: 500;
      font-style: normal;
+}
+
+.header{
+    padding-block:5rem ;
+    background-image: linear-gradient(
+        rgba(15,26,44,.5),
+        rgba(15,26,44,.5)
+    ),
+    url("assets/header.jpg"); /* ADD HEADER IMG */
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat ;
+
+}
+
+.header_container.section_subheader{
+    color: var(--white);
+}
+
+.header_container h1{
+    margin-bottom: 2rem;
+    font-size: 6rem;
+    font-weight: 800;
+    line-height:7rem;
+    font-family: var(--header-font);
+    color:var(--white)
 }

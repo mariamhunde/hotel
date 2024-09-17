@@ -14,3 +14,25 @@ navLinks.addEventListener("click", (e) => {
     menuBtnIcon.setAttribute("class", "ri-menu-line");
 
 });
+
+const scrollRevealOption = {
+    distance: "50px",
+    orgin: "bottom",
+    duration: 1000,
+    
+};
+
+// header container
+ScrollReveal().reveal(".header_container .section_subheader",{
+    ...scrollRevealOption,
+});
+
+ScrollReveal().reveal(".header_container h1,",{
+    ...scrollRevealOption,
+    delay:500
+});
+
+ScrollReveal().reveal(".header_container btn",{
+    ...scrollRevealOption,
+    delay:1000,
+});
