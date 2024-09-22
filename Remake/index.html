@@ -6,13 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>AquaVista</title>
 
-   
-   
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Navbar -->
@@ -38,16 +36,71 @@
             </ul>
         </div>
     </nav>
-   <body>
-     <header class = "header" id="home">
-        <div class = "section_container header_container">
+
+    <!-- Header -->
+    <header class="header" id="home">
+        <div class="section_container header_container">
             <p class="section_subheader">ABOUT US</p>
             <h1>The Perfect <br />Base For You</h1>
             <button class="btn">Take A Tour</button>
         </div>
-     </header>
+    </header>
 
-     <script src="https://unpkg.com/scrollreveal"></script>
-     <script src="main.js"></script>
+   
+
+    <!-- Booking Section -->
+    <section class="booking">
+        <div class="section_container booking_container"> 
+            <form action="/">
+                <div class="input_group">
+                    <label for="arrival">Arrival Date</label>
+                    <input type="text" id="arrival" placeholder="Your Arrival Date">
+                </div>
+                <div class="input_group">
+                    <label for="departure">Departure Date</label>
+                    <input type="text" id="departure" placeholder="Your Departure Date">
+                </div>
+                <div class="input_group">
+                    <label for="guests">Guests</label>
+                    <input type="text" id="guests" placeholder="Number of Guests">
+                </div>
+                <button class="btn">Check Availability</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section_container about_container">
+            <div class="about_grid">
+                <div class="about_image">
+                    <img src="assets/about-1.jpg" alt="about">
+                </div>
+                <div class="about_card">
+                    <span><i class="ri-user-line"></i></span>
+                    <h4>Strong Team</h4>
+                    <p>For an amazing unwinding experience</p>
+                </div>
+                <div class="about_image">
+                    <img src="assets/about-2.jpg" alt="about">
+                </div>
+                <div class="about_card">
+                    <span><i class="ri-calendar-check-line"></i></span>
+                    <h4>Luxury Room</h4>
+                    <p>For an amazing unwinding experience</p>
+                </div>
+            </div>
+        </div>
+        <div class="about_content">
+            <p class="section_subheader">ABOUT US</p>
+            <h2 class="section_header">Discover Our Retreat</h2>
+            <p class="section_description">Welcome................................</p>
+            <button class="btn">Book Now</button>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
 </body>
 </html>

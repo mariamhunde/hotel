@@ -32,7 +32,8 @@ ScrollReveal().reveal(".header_container h1,",{
     delay:500
 });
 
-ScrollReveal().reveal(".header_container btn",{
+ScrollReveal().reveal(".header_container .btn",{
     ...scrollRevealOption,
     delay:1000,
 });
+
