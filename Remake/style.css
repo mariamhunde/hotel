@@ -160,7 +160,7 @@ body{
         rgba(15,26,44,.5),
         rgba(15,26,44,.5)
     ),
-    url("assets/header.jpg"); /* ADD HEADER IMG */
+    url("images/beach\ pic.webp"); /* ADD HEADER IMG */
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat ;
@@ -189,7 +189,10 @@ body{
     margin:auto;
     display: grid;
     gap: 2rem;
+    
 }
+
+.sectio
 
 .input_group {
     display:grid;
@@ -227,7 +230,8 @@ body{
     max-width: 350px;
     margin: auto;
     display: grid;
-    gap: 2rem;
+    gap: 1.5rem;
+    justify-self: start;
 }
 
 .input_group{
@@ -330,12 +334,13 @@ body{
 }
 
 .about_image img{
-    height:100%;
-    object-fit: cover;
+    height:500px;
+    object-fit: contain;
     box-shadow: 5px 5px 20px rgb(0,0,0,0.1);
 }
 
 .about_content .section_description{
     margin-bottom: 2rem;
-    
+
 }
+
